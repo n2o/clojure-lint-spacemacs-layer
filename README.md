@@ -10,4 +10,21 @@ e.g. with
 
     yaourt -S joker
 
-Then add `clojure-lint` to your dotspacemacs-configuration-layers.
+
+## Installation
+
+Clone this repository to a location where you store your private layers, e.g. `~/.emacs.layers`
+
+    git clone https://github.com/n2o/clojure-lint-spacemacs-layer ~/.emacs.layers
+    
+Then link this layer into your `.emacs.d` folder:
+
+    ln -s ~/.emacs.layers/clojure-lint/ ~/.emacs.d/private/clojure-lint
+    
+At last, add the new layer `clojure-lint` to your dotspacemacs-configuration-layers.
+
+
+## Usage
+
+This automatically enables flycheck-mode with flycheck-joker on Clojure-files
+and lints your code. No additional steps should be required.
