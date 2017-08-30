@@ -15,7 +15,8 @@ e.g. with
 
 Clone this repository to a location where you store your private layers, e.g. `~/.emacs.layers`
 
-    git clone https://github.com/n2o/clojure-lint-spacemacs-layer ~/.emacs.layers
+    mkdir ~/.emacs.layers/
+    git clone https://github.com/n2o/clojure-lint-spacemacs-layer ~/.emacs.layers/clojure-lint
     
 Then link this layer into your `.emacs.d` folder:
 
