@@ -10,6 +10,9 @@ e.g. with
 
     yaourt -S joker
 
+Supports clj, cljs and cljc-files:
+
+![cljc_support](img/cljc_support.jpg)
 
 ## Installation
 
