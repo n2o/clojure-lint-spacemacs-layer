@@ -25,7 +25,7 @@ Then link this layer into your `.emacs.d` folder:
 
     ln -s ~/.emacs.layers/clojure-lint/ ~/.emacs.d/private/clojure-lint
     
-At last, add the new layer `clojure-lint` to your dotspacemacs-configuration-layers.
+At last, add the new layer `clojure-lint` and the `syntax-checking` layer to your dotspacemacs-configuration-layers.
 
 
 ## Usage
