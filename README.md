@@ -1,5 +1,11 @@
 # clojure-lint layer
 
+## Deprecation Notice
+
+I recommend using [clj-kondo](https://github.com/clj-kondo/clj-kondo) to lint your Clojure Code, this project will not be further developed. 
+
+----
+
 ![clojure-lint](img/emacs.png)
 
 Enables clojure-mode, flycheck and
